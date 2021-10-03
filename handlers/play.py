@@ -74,7 +74,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     )
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text((190, 670),
-        f"Powered By: t.me/AdityaServer",
+        f"Powered By: t.me/Venom_Hai_Hum",
         (255, 255, 255),
         font=font,
     )
@@ -100,7 +100,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "❰ᴀᴅɪᴛʏᴀ✘ᴘʟᴀʏᴇʀ❱"
+        user.first_name = "❰ǫᴜᴇᴇɴ✘ᴀʟɪsʜᴀ❱ "
     usar = user
     wew = usar.id
     try:
@@ -118,18 +118,18 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**❰ᴀᴅɪᴛʏᴀ✘ᴘʟᴀʏᴇʀ❱ sᴜᴘᴇʀ ғᴀsᴛ\nᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴀssɪsᴛᴀɴᴛ ɴᴏᴡ\nʜᴇʀᴇ ...**")
+                        message.chat.id, "**❰ǫᴜᴇᴇɴ✘ᴀʟɪsʜᴀ❱  sᴜᴘᴇʀ ғᴀsᴛ\nᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴀssɪsᴛᴀɴᴛ ɴᴏᴡ\nʜᴇʀᴇ ...**")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>❰ᴀᴅɪᴛʏᴀ✘ᴘʟᴀʏᴇʀ❱ » ᴀssɪsᴛᴀɴᴛ\nᴄᴏᴜʟᴅ ɴᴏᴛ ᴊᴏɪɴ ᴛʜɪs ɢʀᴏᴜᴘ ...</b>")
+                        f"<b>❰ǫᴜᴇᴇɴ✘ᴀʟɪsʜᴀ❱  » ᴀssɪsᴛᴀɴᴛ\nᴄᴏᴜʟᴅ ɴᴏᴛ ᴊᴏɪɴ ᴛʜɪs ɢʀᴏᴜᴘ ...</b>")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<b>❰ᴀᴅɪᴛʏᴀ✘ᴘʟᴀʏᴇʀ❱ sᴜᴘᴇʀ ғᴀsᴛ\nᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴀssɪsᴛᴀɴᴛ » ɪs\nɴᴏᴛ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ ...</b>")
+            f"<b>❰ǫᴜᴇᴇɴ✘ᴀʟɪsʜᴀ❱  sᴜᴘᴇʀ ғᴀsᴛ\nᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴀssɪsᴛᴀɴᴛ » ɪs\nɴᴏᴛ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ ...</b>")
         return
     
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
@@ -143,7 +143,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/e6b77c91a4228b6d9fd92.jpg"
+        thumb_name = "https://telegra.ph/file/5add5d851ca830781d81f.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -153,7 +153,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞",
-                            url=f"t.me/adityadiscus")
+                            url=f"t.me/Shayri_Music_Lovers")
 
                 ]
             ]
@@ -191,14 +191,14 @@ async def play(_, message: Message):
                     [
                         InlineKeyboardButton(
                             text="💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞",
-                            url=f"t.me/adityadiscus")
+                            url=f"t.me/Shayri_Music_Lovers")
 
                     ]
                 ]
             )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/e6b77c91a4228b6d9fd92.jpg"
+            thumb_name = "https://telegra.ph/file/5add5d851ca830781d81f.png"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -206,7 +206,7 @@ async def play(_, message: Message):
                         [
                         InlineKeyboardButton(
                             text="💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞",
-                            url=f"t.me/adityadiscus")
+                            url=f"t.me/Shayri_Music_Lovers")
 
                        ]
                     ]
@@ -256,7 +256,7 @@ async def play(_, message: Message):
                     [
                         InlineKeyboardButton(
                             text="💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞",
-                            url=f"t.me/adityadiscus")
+                            url=f"t.me/Shayri_Music_Lovers")
 
                     ]
                 ]
@@ -273,7 +273,7 @@ async def play(_, message: Message):
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
         photo="final.png", 
-        caption="**❰ᴀᴅɪᴛʏᴀ✘ᴘʟᴀʏᴇʀ❱ ǫᴜᴇᴜᴇᴅ ᴛʜɪs\nsᴏɴɢ ᴀᴛ ᴘᴏsɪᴛɪᴏɴ »** {}".format(position),
+        caption="**❰ǫᴜᴇᴇɴ✘ᴀʟɪsʜᴀ❱  ǫᴜᴇᴜᴇᴅ ᴛʜɪs\nsᴏɴɢ ᴀᴛ ᴘᴏsɪᴛɪᴏɴ »** {}".format(position),
         reply_markup=keyboard)
         os.remove("final.png")
         return await lel.delete()
@@ -282,6 +282,6 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="**❰ᴀᴅɪᴛʏᴀ✘ᴘʟᴀʏᴇʀ❱ ɴᴏᴡ ᴘʟᴀʏɪɴɢ\nᴠɪᴀ [ᴀᴅɪᴛʏᴀ sᴇʀᴠᴇʀ](t.me/adityaserver) ...**".format(), )
+        caption="**❰ǫᴜᴇᴇɴ✘ᴀʟɪsʜᴀ❱  ɴᴏᴡ ᴘʟᴀʏɪɴɢ\nᴠɪᴀ [ᴀʟɪsʜᴀ  sᴇʀᴠᴇʀ](t.me/ABOUTABHI) ...**".format(), )
         os.remove("final.png")
         return await lel.delete()
