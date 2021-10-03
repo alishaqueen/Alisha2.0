@@ -22,12 +22,12 @@
 
 ### Deploy To Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AbhumanyuXMusic/RocksVcPlayer)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/alishaqueen/Alisha2.0)
 
 
 ### Deploy To Railway
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/AbhumanyuXMusic/RocksVcPlaye&envs=API_ID,API_HASH,BOT_TOKEN,DURATION_LIMIT,SESSION_NAME,SUDO_USERS)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/alishaqueen/Alisha2.0&envs=API_ID,API_HASH,BOT_TOKEN,DURATION_LIMIT,SESSION_NAME,SUDO_USERS)
 
 
 ### ᴄʀᴇᴅɪᴛs
