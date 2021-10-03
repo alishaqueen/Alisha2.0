@@ -1,6 +1,9 @@
 # ❰ǫᴜᴇᴇɴ✘ᴀʟɪsʜᴀ❱  ᴛʜᴇ sᴜᴘᴇʀ ғᴀsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ...
 
 
+<p align="center"><a href="https://t.me/Venom_Hai_Hum"><img src="https://telegra.ph/file/460337c4ebdbb28862d2b.jpg" width="300"></a></p>
+
+
 ### ᴄᴏᴍᴍᴀʙᴅs 🛠
 #### ғᴏʀ ᴀʟʟ ᴍᴇᴍʙᴇʀs ɪɴ ɢʀᴏᴜᴘ
 - `/play` - reply to youtube url or song file to play song
