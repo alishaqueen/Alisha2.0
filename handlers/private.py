@@ -1,5 +1,5 @@
-# ❰ᴀᴅɪᴛʏᴀ✘ᴘʟᴀʏᴇʀ❱
-# ❰ᴀᴅɪᴛʏᴀ✘ʜᴀʟᴅᴇʀ❱
+# ❰ǫᴜᴇᴇɴ✘ᴀʟɪsʜᴀ❱
+# ❰ǫᴜᴇᴇɴ✘ᴀʟɪsʜᴀ❱
 
 import logging
 from pyrogram import Client, filters
