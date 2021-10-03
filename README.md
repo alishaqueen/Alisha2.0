@@ -22,14 +22,14 @@
 
 ### Deploy To Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Shailendra34/ShailendraVcPlayer)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AbhumanyuXMusic/RocksVcPlayer)
 
 
 ### Deploy To Railway
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Shailendra34/ShailendraVcPlayer&envs=API_ID,API_HASH,BOT_TOKEN,DURATION_LIMIT,SESSION_NAME,SUDO_USERS)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/AbhumanyuXMusic/RocksVcPlaye&envs=API_ID,API_HASH,BOT_TOKEN,DURATION_LIMIT,SESSION_NAME,SUDO_USERS)
 
 
 ### ᴄʀᴇᴅɪᴛs
-- [Andrew](https://github.com/AndrewLaneX): PyTgCalls
+- [Aʙʜɪᴍᴀɴʏᴜ Sɪɴɢʜ Rᴀɴᴀᴡᴀᴛ](https://t.me/Venom_Hai_Hum): 
 - [Original Repo](https://github.com/suprojects/CallsMusic)
