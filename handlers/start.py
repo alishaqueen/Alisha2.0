@@ -276,7 +276,7 @@ async def get_uptime(client: Client, message: Message):
 
     )
 
-© 2021 GitHub, Inc.
+"© 2021 GitHub, Inc."
 
 Terms
 
