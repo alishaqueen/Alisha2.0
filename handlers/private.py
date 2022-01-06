@@ -26,12 +26,12 @@ def _start(client, message):
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
     await message.reply_text(
-        f"""**❰ǫᴜᴇᴇɴ✘ᴀʟɪsʜᴀ❱  sᴜᴘᴇʀ ғᴀsᴛ\nʜɪɢʜ ǫᴜᴀʟɪᴛʏ » ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ\nʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [Aʙʜɪᴍᴀɴʏᴜ Sɪɴɢʜ Rᴀɴᴀᴡᴀᴛ](t.me/Venom_Hai_Hum) ...**""",
+        f"""**❰ǫᴜᴇᴇɴ✘ᴀʟɪsʜᴀ❱  sᴜᴘᴇʀ ғᴀsᴛ\nʜɪɢʜ ǫᴜᴀʟɪᴛʏ » ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ\nʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [Aʙʜɪᴍᴀɴʏᴜ Sɪɴɢʜ Rᴀɴᴀᴡᴀᴛ](t.me/Itz_Venom_xD) ...**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💥", url=f"https://t.me/Shayri_Music_Lovers"
+                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💥", url=f"https://t.me/AlishaSupport"
                     )
                 ]
             ]
@@ -42,7 +42,7 @@ async def gstart(_, message: Message):
 @Client.on_message(filters.command("help") & ~filters.private & ~filters.channel)
 async def ghelp(_, message: Message):
     await message.reply_text(
-        f"""**❰ǫᴜᴇᴇɴ✘ᴀʟɪsʜᴀ❱  sᴜᴘᴇʀ ғᴀsᴛ\nʜɪɢʜ ǫᴜᴀʟɪᴛʏ » ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ\nʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [Aʙʜɪᴍᴀɴʏᴜ Sɪɴɢʜ Rᴀɴᴀᴡᴀᴛ](t.me/Venom_Hai_Hum) ...**""",
+        f"""**❰ǫᴜᴇᴇɴ✘ᴀʟɪsʜᴀ❱  sᴜᴘᴇʀ ғᴀsᴛ\nʜɪɢʜ ǫᴜᴀʟɪᴛʏ » ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ\nʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [Aʙʜɪᴍᴀɴʏᴜ Sɪɴɢʜ Rᴀɴᴀᴡᴀᴛ](t.me/Itz_Venom_xD) ...**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
