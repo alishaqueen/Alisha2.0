@@ -16,7 +16,7 @@ def _start(client, message):
 
     client.send_message(message.chat.id,
 
-        text="**❰ǫᴜᴇᴇɴ✘ᴀʟɪsʜᴀ❱  sᴜᴘᴇʀ ғᴀsᴛ ᴍᴜsɪᴄ\nᴘʟᴀʏᴇʀ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [Aʙʜɪᴍᴀɴʏᴜ Sɪɴɢʜ Rᴀɴᴀᴡᴀᴛ](t.me/Venom_Hai_Hum)  ...**".format(message.from_user.first_name, message.from_user.id),
+        text="**❰ǫᴜᴇᴇɴ✘ᴀʟɪsʜᴀ❱  sᴜᴘᴇʀ ғᴀsᴛ ᴍᴜsɪᴄ\nᴘʟᴀʏᴇʀ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [Aʙʜɪᴍᴀɴʏᴜ Sɪɴɢʜ Rᴀɴᴀᴡᴀᴛ](t.me/Itz_Venom_xD)  ...**".format(message.from_user.first_name, message.from_user.id),
 
         parse_mode="markdown",
 
@@ -48,7 +48,7 @@ async def gstart(_, message: Message):
 
     await message.reply_text(
 
-        f"""**❰ǫᴜᴇᴇɴ✘ᴀʟɪsʜᴀ❱  sᴜᴘᴇʀ ғᴀsᴛ\nʜɪɢʜ ǫᴜᴀʟɪᴛʏ » ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ\nʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [Aʙʜɪᴍᴀɴʏᴜ Sɪɴɢʜ Rᴀɴᴀᴡᴀᴛ](t.me/Venom_Hai_Hum) ...**""",
+        f"""**❰ǫᴜᴇᴇɴ✘ᴀʟɪsʜᴀ❱  sᴜᴘᴇʀ ғᴀsᴛ\nʜɪɢʜ ǫᴜᴀʟɪᴛʏ » ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ\nʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [Aʙʜɪᴍᴀɴʏᴜ Sɪɴɢʜ Rᴀɴᴀᴡᴀᴛ](t.me/Itz_Venom_xD) ...**""",
 
         reply_markup=InlineKeyboardMarkup(
 
@@ -58,7 +58,7 @@ async def gstart(_, message: Message):
 
                     InlineKeyboardButton(
 
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💥", url=f"https://t.me/Shayri_Music_Lovers"
+                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💥", url=f"https://t.me/AlishaSupport"
 
                     )
 
@@ -86,7 +86,7 @@ async def ghelp(_, message: Message):
 
                     InlineKeyboardButton(
 
-                        "💥 ᴄʟɪᴄᴋ ʜᴇʀᴇ »» ғᴏʀ ᴍᴏʀᴇ 💞", url=f"https://t.me/AlishaSupport"
+                        "💥 ᴄʟɪᴄᴋ ʜᴇʀᴇ »» ғᴏʀ ᴍᴏʀᴇ 💞", url=f"https://t.me/Shayri_Music_Lovers"
 
                     )
 
